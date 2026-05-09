@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name="indro-veda",
-    version="1.0.0",
+    version="1.0.1",
     author="Indro Studio",
     description="The official SDK for the Indro-Veda Vanguard Delivery Network.",
     packages=find_packages(),
