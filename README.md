@@ -1,1 +1,0 @@
-# indro-veda-sdk
