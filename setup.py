@@ -11,13 +11,12 @@ except FileNotFoundError:
 
 setup(
     name="indro-vanguard",
-    version="1.0.3",
+    version="1.1.0",
     author="Abhinav Anand",
     author_email="indrohelpdesk@gmail.com",
     description="Zero-Trust, Hyperscale AI Model Delivery Network SDK",
     long_description=long_description,
-    long_description_content_type="text/markdown",
-    url="coming soon", # main website or GitHub repo
+    long_description_content_type="text/markdown"
     
     # Automatically finds the 'indro_vanguard' folder we created
     packages=find_packages(),
