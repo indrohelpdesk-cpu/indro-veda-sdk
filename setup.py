@@ -1,27 +1,27 @@
 import os
-from setuptools import setup, find_packages
+from setuptools import setup
 
-# Read the README.md for the long description on PyPI
-here = os.path.abspath(os.path.dirname(__file__))
+# Safely read README.md for PyPI's homepage description
 try:
-    with open(os.path.join(here, 'README.md'), encoding='utf-8') as f:
-        long_description = f.read()
+    with open("README.md", "r", encoding="utf-8") as fh:
+        long_description = fh.read()
 except FileNotFoundError:
     long_description = "The Official Enterprise SDK for the Indro-Veda Vanguard Delivery Network."
 
 setup(
     name="indro-vanguard",
-    version="1.1.0",
+    version="16.0.0",
     author="Abhinav Anand",
-    author_email="indrohelpdesk@gmail.com",
+    author_email="indrohelpdesk@gmail.com", 
     description="Zero-Trust, Hyperscale AI Model Delivery Network SDK",
     long_description=long_description,
-    long_description_content_type="text/markdown"
+    long_description_content_type="text/markdown",
+    url="https://github.com/indrohelpdesk-cpu/indro-veda-sdk",
     
-    # Automatically finds the 'indro_vanguard' folder we created
-    packages=find_packages(),
+    # HARDCODED for absolute reliability. Matches the folder name exactly.
+    packages=["indro_vanguard"], 
     
-    # These are the exact dependencies the SDK needs to run
+    # Exact dependencies for the Titan SDK
     install_requires=[
         "aiohttp>=3.8.5",
         "cryptography>=41.0.3",
@@ -41,14 +41,9 @@ setup(
         "Programming Language :: Python :: 3.9",
         "Programming Language :: Python :: 3.10",
         "Programming Language :: Python :: 3.11",
-        "License :: OSI Approved :: MIT License", # Assuming MIT, change if proprietary
+        "License :: OSI Approved :: MIT License", 
         "Operating System :: OS Independent",
-        "Environment :: Console",
     ],
     
-    # Requires modern Python
     python_requires=">=3.8",
-    
-    # Include any non-Python files if needed later
-    include_package_data=True,
 )
