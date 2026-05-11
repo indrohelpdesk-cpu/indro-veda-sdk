@@ -19,7 +19,7 @@ setup(
     url="https://github.com/indrohelpdesk-cpu/indro-veda-sdk",
     
     # HARDCODED for absolute reliability. Matches the folder name exactly.
-    packages=["indro-veda"], 
+    packages=["indro"], 
     
     # Exact dependencies for the Titan SDK
     install_requires=[
