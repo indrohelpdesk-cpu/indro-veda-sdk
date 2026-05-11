@@ -9,8 +9,8 @@ except FileNotFoundError:
     long_description = "The Official Enterprise SDK for the Indro-Veda Vanguard Delivery Network."
 
 setup(
-    name="indro-veda",
-    version="16.0.0",
+    name="indro",
+    version="0.0.1",
     author="Abhinav Anand",
     author_email="indrohelpdesk@gmail.com", 
     description="Zero-Trust, Hyperscale AI Model Delivery Network SDK",
