@@ -13,7 +13,7 @@ setup(
     name="indro-vanguard",
     version="1.0.3",
     author="Abhinav Anand",
-    author_email="indrohelpdesk@gmail.com"
+    author_email="indrohelpdesk@gmail.com",
     description="Zero-Trust, Hyperscale AI Model Delivery Network SDK",
     long_description=long_description,
     long_description_content_type="text/markdown",
