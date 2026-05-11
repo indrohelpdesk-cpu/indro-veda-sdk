@@ -1,10 +1,10 @@
-# 🛡️ Indro-Veda Vanguard SDK
+# 🛡️ Indro Vanguard SDK
 
 [![PyPI version](https://badge.fury.io/py/indro-veda.svg)](https://badge.fury.io/py/indro-veda)
 [![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-**The Official Enterprise Client for the Indro-Veda Vanguard Delivery Network.**
+**The Official Enterprise Client for the Indro Vanguard Delivery Network.**
 
 Indro-Veda is a military-grade, zero-trust data pipeline designed to securely stream and decrypt massive AI models and datasets on the fly. Built with hardcore cryptography and an asynchronous core, it allows developers to pull models without exposing API keys or passing unencrypted weights over the open internet.
 
