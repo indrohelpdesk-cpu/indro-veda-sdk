@@ -10,7 +10,7 @@ except FileNotFoundError:
 
 setup(
     name="indro",
-    version="19.0.0",
+    version="0.0.2",
     author="Abhinav Anand",
     description="Secure, asynchronous Python client for the Indro streaming network.",
     long_description=long_description,
